@@ -1,0 +1,254 @@
+@media (max-width: 1030px)
+
+	/*	nav1*/
+	.nav1 .title{
+    	font-size: 0.8rem;
+	}
+	/*	hamburger menu*/
+	.change{
+        width: 40%;
+    }
+/*    dropdown*/
+/*.dropdown-menu ul{
+	width: 250px;
+}*/
+    .dropdown-menu.show {
+    flex-wrap: wrap;
+    max-width: 300px;
+    max-height: 400px;
+    overflow-y: scroll;
+    box-sizing: content-box;
+    font-size: 0.9rem;
+  }
+/*    banner*/
+    	.carousel .home-banner-1,
+		.carousel .home-banner-2,
+		.carousel .home-banner-3{
+			background-position: 65% center;
+			min-height: 550px;
+		}
+		.carousel .home-banner .home-banner-text{
+			transform: translate(-80%, -50%);
+		}
+/*		product-slider*/
+		.product-slider header{
+			margin-left: 2vw;
+		}
+/*	wrapper*/
+		.wrapper{
+			width: 990px;
+		}
+}
+
+@media (max-width: 991px){
+	/*	nav1*/
+	.nav1 .title{
+    	font-size: 0.8rem;
+	}
+	.carousel .home-banner .home-banner-text{
+			transform: translate(-66%, -50%);
+		}
+	/*		product-slider*/
+		.product-slider header{
+			margin-left: 4vw;
+		}
+/*	wrapper*/
+		.wrapper{
+			width: 920px;
+		}
+}
+
+@media (max-width: 768px){
+	/*	nav1*/
+	.nav1{
+		padding: 0 2rem;
+	}
+	.nav1 .title{
+    	font-size: 0.6rem;
+	}
+	.nav1 .nav-items{
+		font-size: 0.6rem;
+		opacity: 0;
+	}
+	/*	hamburger menu*/
+	.change{
+        width: 30%;
+    }
+	/*    nav-link*/
+	.nav-link{
+		font-size: 0.7rem;
+	}
+/*marquee*/
+	.marquee{
+		height: 1.4rem;
+	}
+	pre{
+		font-size: 0.5rem;
+	}
+	/*carousel*/
+    .carousel .home-banner-1,
+	.carousel .home-banner-2,
+	.carousel .home-banner-3 {
+		background-position: 50% center;
+		min-height: 450px;
+	}
+	.carousel .home-banner .home-banner-text{
+		text-align: center;
+		width: 100%;
+		transform: translate(-50%, -50%);
+	}
+	.carousel .home-banner .home-banner-text h1{
+		font-size: 3rem;
+	}
+	.carousel .home-banner .home-banner-text h2{
+		font-size: 1.2rem;
+	}
+	.carousel .home-banner .home-banner-text .btn-danger {
+		padding: 0.5rem, 1.5rem;
+	}
+	.carousel .slider-icon{
+		font-size: 2rem;
+	}
+	/*		product-slider*/
+		.product-slider header{
+			margin-left: 4vw;
+		}
+/*	wrapper*/
+		.wrapper{
+			width: 700px;
+		}
+}
+@media (max-width: 420px){
+	.nav1 .brandImage img{
+		transform: scale(1.7);
+	}
+	.nav1 .title{
+    	font-size: 0.4rem;
+	}
+	.nav-link{
+		font-size: 0.5rem;
+	}
+	.dropdown-menu ul li{
+		font-size: 0.8rem;
+	}
+	.dropdown-menu li .dropdown-item {
+		font-size: 0.6rem;
+	}
+	/*		product-slider*/
+		.product-slider header{
+			margin-left: 4vw;
+		}
+/*	wrapper*/
+		.wrapper{
+			width: 360px;
+		}
+}
+
+@media (max-width: 390px){
+	/*	nav1*/
+	.nav1{
+		padding: 0 2rem;
+	}
+	.nav1 .brandImage img{
+		transform: scale(1.7);
+	}
+	.nav1 .title{
+    	font-size: 0.44rem;
+	}
+	.nav-items{
+		opacity: 0;
+	}
+	/*	hamburger menu*/
+	.change{
+        width: 30%;
+    }
+    /*    nav-link*/
+	.nav-link{
+		font-size: 0.5rem;
+	}
+/*	carousel*/
+    .carousel .home-banner-1,
+	.carousel .home-banner-2,
+	.carousel .home-banner-3 {
+		background-position: 60% center;
+		min-height: 450px;
+	}
+    .carousel .home-banner .home-banner-text h2{
+		font-size: 1rem;
+	}
+	/*	wrapper*/
+		.wrapper{
+			width: 340px;
+		}
+}
+
+
+
+
+
+/*dropdown*/
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+  }
+  .dropdown-menu.show {
+    display: flex;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .dropdown-menu.show {
+    flex-wrap: wrap;
+    max-height: 350px;
+    overflow-y: scroll;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+  .dropdown:hover .dropdown-menu {
+    width: 40vw;
+    flex-wrap: wrap;
+  }
+}
+
+/*    	categories-label*/
+    	@media (max-width: 1030px){
+    		.categories-label img{
+	    		 height: 6vw;
+	    	}
+	    	.categories-label .h6{
+	    		font-size: 0.6rem;
+	    	}	
+    	}
+    	@media (max-width: 991px){
+    		.categories-label img{
+	    		 height: 6.4vw;
+	    	}
+	    	.categories-label .h6{
+	    		font-size: 0.58rem;
+	    	}	
+    	}
+    	@media (max-width: 768px){
+    		.categories-label img{
+	    		 height: 6.6vw;
+	    	}
+	    	.categories-label .h6{
+	    		font-size: 0.5rem;
+	    	}	
+    	}
+    	@media (max-width: 420px){
+    		.categories-label img{
+	    		 height: 10vw;
+	    	}
+	    	.categories-label .h6{
+	    		font-size: 0.5rem;
+	    	}	
+    	}
+    	@media (max-width: 390px){
+    		.categories-label img{
+	    		 height: 12vw;
+	    	}
+	    	.categories-label .h6{
+	    		font-size: 0.5rem;
+	    	}	
+    	}
